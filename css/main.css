@@ -1,0 +1,60 @@
+button {
+  background-color: #2b7de9;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+button:disabled {
+  background-color: #9bbbe9;
+  cursor: not-allowed;
+}
+
+#formCard {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(20, 30, 60, 0.08);
+  padding: 18px;
+  width: 380px;
+  box-sizing: border-box;
+  text-align: right;
+}
+
+#formCard h3 {
+  margin: 0 0 12px 0;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 6px;
+  border-radius: 6px;
+  border: 1px solid #d0d7e6;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.controls {
+  display: flex;
+  gap: 8px;
+  margin-top: 14px;
+  justify-content: flex-start;
+}
+
+#result {
+  color: #222;
+  margin: 0;
+  padding: 0 10px;
+  word-break: break-word;
+}
